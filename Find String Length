@@ -1,0 +1,17 @@
+package javaPrograms;
+
+public class LengthOfaString {
+	
+	public void withLengthMethod(String str) {
+		System.out.println(str.length());
+		
+	}
+
+
+	public static void main(String[] args) {
+		LengthOfaString length = new LengthOfaString();
+		length.withLengthMethod("Example");
+
+	}
+
+}
